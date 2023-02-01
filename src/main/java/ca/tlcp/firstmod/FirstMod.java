@@ -40,7 +40,7 @@ public class FirstMod {
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks and items get registered
-        ModItems.register(modEventBus);
+//        ModItems.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
